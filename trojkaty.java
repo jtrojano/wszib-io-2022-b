@@ -31,7 +31,7 @@ class Trojkaty {
         if (a + b <= c) return false;
         if (a + c <= b) return false;
         if (b + c <= a) return false;
-        return true;
+        return true;}
     public static void jakiTrojkat(float a, float b, float c){
          int jednakoweDlugosci = ileJednakowych(a, b, c); // tutaj zliczamy ile jest jednakowych bokow
                    if (jednakoweDlugosci > 1) {
